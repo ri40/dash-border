@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 import { appRoutesObj } from "./app.paths";
+import Sginup from "./pages/dashborder/startup/sginup";
 
 const ExamplePage = React.lazy(() => import('./pages/user/example-page'));
 const NotFoundPage = React.lazy(() => import('./pages/404'));
@@ -35,7 +36,7 @@ export function AppRouting() {
             <Route
               key="homepage"
               path={appRoutesObj.getBasePath()}
-              element={withSuspense(<App />)}
+              element={withSuspense(<Sginup />)}
             />
             
             <Route

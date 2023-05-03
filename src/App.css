@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #efefef;
+}
+
+@font-face {
+  font-family: "Cairo-Bold";
+  src: url("../public/assets/fonts/Cairo-Bold.ttf")
+    format("truetype");
+  font-weight: Bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cairo-Medium";
+  src: url("../public/assets/fonts/Cairo-Medium.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cairo-Regular";
+  src: url("../public/assets/fonts/Cairo-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cairo-SemiBold";
+  src: url("../public/assets/fonts/Cairo-SemiBold.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
